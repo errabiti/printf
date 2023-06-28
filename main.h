@@ -4,9 +4,9 @@
 #include <stdio.h>
 #include <unistd.h>
 int _putch(char c);
-int print_string(char *s);
+int mark_string(char *s);
 int len(int num);
-int print_int(int n);
+int mark_int(int n);
 int _printf(const char *format, ...);
 #endif /* MAIN_H */
 
